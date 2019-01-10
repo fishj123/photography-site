@@ -31,7 +31,6 @@ a:hover, a:active, a:visited {
 /*/////////////// navigation styles ///////////////*/
 
 header {
-    border-bottom: 1px solid hsl(0, 0%, 90%);
     height: 4vw;
     display: flex;
     align-items: center;
@@ -44,8 +43,13 @@ header {
 
 header span {
     margin: 2vw 6vw;
-    opacity: 0.8;
+    opacity: 0.5; 
+    transition: 0.3s ease-in ;  
 
+}
+
+header span:hover {
+    opacity: 1;;
 }
 
 /*/////////////// hero section styles ///////////////*/    
@@ -136,7 +140,7 @@ header span {
 /*/////////////// footer section styles ///////////////*/  
 
 footer {
-    height: 25vw;
+    height: 15vw;
     border-top: 1px solid hsl(0, 0%, 90%);
     background-color: #D3A558;
     display: flex;
@@ -148,7 +152,9 @@ footer {
 footer h1 {
     text-align: center;
     margin-bottom: 3vw;
+    position: relative;
 }
+
 
 .button {
     background-color: #C75466;
