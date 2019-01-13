@@ -134,7 +134,7 @@ header span:hover {
 .image-container img {
     width: 21vw;
     height: 14vw;
-    border-radius: 2%;
+    border: 2px solid black;
 }
 
 .tile {
@@ -144,7 +144,6 @@ header span:hover {
     align-items: center;
     width: 30vw;
     margin-top: 3vw;
-    
 }
 
 /*/////////////// footer section styles ///////////////*/  
