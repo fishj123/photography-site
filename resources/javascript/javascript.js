@@ -17,5 +17,3 @@ if (userScrollTop - userScrollNone > 50) {
 });
 
 });
-
-
